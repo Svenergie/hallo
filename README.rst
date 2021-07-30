@@ -51,14 +51,13 @@ The attributes of the objects will be filled according the rules
 documented in this Concept and will be the same for all LDAP-Clients.
 
 Accounts
---------
-
+########
 Attributes managed for Accounts are the following
 
 
 
 Object-Classes
---------
+**********************
 
 
 
@@ -102,12 +101,12 @@ unit of the account-owner and is between 59000 and 59999.
 The homeDirectory is `/home/<uid>`.
 
 loginShell
---------
+########
 
 The loginShell is always `/bin/defaultshell`. This shell should be linked
 locally to the preferred shell of the workstation.
 
  userPassword
- --------
+########
 
 T
