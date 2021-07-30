@@ -19,7 +19,7 @@ The following picture shows the overall architecture of the central
 LDAP-Service of TJVI. The accounts will be automatically created by the
 Identity Management System (IDM).
 
-![LDAP Architecture Overview](img/LDAP-Architecture-Overview.png)
+
 
 Attributes known to the IDM will be automatically filled in the
 LDAP-Service. The Service is a central storage for accounts and
@@ -45,7 +45,7 @@ Attributes managed in the LDAP-Service
 The LDAP-Service is based on RFC 2307. The following picture illustrates
 the connection between Unix-Objects and the LDAP-Objects.
 
-![LDAP-Objects](img/LDAP-Objects.png)
+
 
 The attributes of the objects will be filled according the rules
 documented in this Concept and will be the same for all LDAP-Clients.
